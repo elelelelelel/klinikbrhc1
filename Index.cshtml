@@ -1,0 +1,125 @@
+﻿@page "/q1"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<section class="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+            <img src="~/images/home-slide-3.jpg" style="width: 100vw; height: 100vh"/>
+            
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="swiper-slide slide" style="position: relative; top: -600px; z-index: 10">
+    <div class="content" style="width: 500px; text-align: center" >
+        <h3 style="font-size: 36px; color: #fff">the best Therapy you will find find here!</h3>
+        <p style="font-size: 24px; color:#fff">we offer you the best service that you need</p>
+        <a href="#" class="btn">get started</a>
+    </div>
+</section>
+
+<section class="subjects" style="margin-top: -200px">
+
+
+    <h1 class="heading">Our Service Method</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/subject-icon-1.png" alt="">
+            <h3>Artistic Place</h3>
+            <p>free</p>
+        </div>
+
+        <div class="box">
+            <img src="images/subject-icon-2.png" alt="">
+            <h3>Pricing</h3>
+            <p>Cheap on weekdays</p>
+        </div>
+
+        <div class="box">
+            <img src="images/subject-icon-3.png" alt="">
+            <h3>Specialist</h3>
+            <p>every friday</p>
+        </div>
+
+        <div class="box">
+            <img src="images/subject-icon-4.png" alt="">
+            <h3>International Customer</h3>
+            <p>World Class Service</p>
+        </div>
+
+        <div class="box">
+            <img src="images/subject-icon-5.png" alt="">
+            <h3>Medicine</h3>
+            <p>Personal reseacrh</p>
+        </div>
+
+        <div class="box">
+            <img src="images/subject-icon-6.png" alt="">
+            <h3>Sertification Service</h3>
+            <p>Clean Service</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact">
+
+    <h1 class="heading"> get in touch </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>opening hours :</h3>
+            <p>09.00 - 21.00</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>phone :</h3>
+            <p>+62852-0839-0135</p>
+        </div>
+
+
+        <div class="icons">
+            <i class="fas fa-map"></i>
+            <h3>address :</h3>
+            <p>Jl. H Hendro suratmin no.28, sukarame, Bandar Lampung</p>
+            <p>Jl. Imam bonjol, Langkapura, Kemiling, Bandar Lampung</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.png" alt="">
+        </div>
+
+        <form action="">
+            <h3>send us a message</h3>
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="phone" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
